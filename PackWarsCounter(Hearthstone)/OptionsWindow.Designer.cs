@@ -148,7 +148,7 @@
             this.lblComVal.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblComVal.Size = new System.Drawing.Size(15, 16);
             this.lblComVal.TabIndex = 9;
-            this.lblComVal.Text = "0";
+            this.lblComVal.Text = "?";
             this.lblComVal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblRareVal
@@ -160,7 +160,7 @@
             this.lblRareVal.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblRareVal.Size = new System.Drawing.Size(15, 16);
             this.lblRareVal.TabIndex = 10;
-            this.lblRareVal.Text = "0";
+            this.lblRareVal.Text = "?";
             this.lblRareVal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblEpicVal
@@ -172,7 +172,7 @@
             this.lblEpicVal.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblEpicVal.Size = new System.Drawing.Size(15, 16);
             this.lblEpicVal.TabIndex = 11;
-            this.lblEpicVal.Text = "0";
+            this.lblEpicVal.Text = "?";
             this.lblEpicVal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lblLegendVal
@@ -184,7 +184,7 @@
             this.lblLegendVal.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblLegendVal.Size = new System.Drawing.Size(15, 16);
             this.lblLegendVal.TabIndex = 12;
-            this.lblLegendVal.Text = "0";
+            this.lblLegendVal.Text = "?";
             this.lblLegendVal.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // btnOptSave

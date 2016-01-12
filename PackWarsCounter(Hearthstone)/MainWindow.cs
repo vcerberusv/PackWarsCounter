@@ -16,5 +16,11 @@ namespace PackWarsCounter_Hearthstone_
         {
             InitializeComponent();
         }
+
+        private void btnOptions_Click(object sender, EventArgs e)
+        {
+            OptionsWindow optionsForm = new OptionsWindow();
+            optionsForm.Show();
+        }
     }
 }

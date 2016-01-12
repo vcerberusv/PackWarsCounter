@@ -54,7 +54,7 @@
             this.btnOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOptions.Location = new System.Drawing.Point(668, 439);
             this.btnOptions.Name = "btnOptions";
-            this.btnOptions.Size = new System.Drawing.Size(104, 43);
+            this.btnOptions.Size = new System.Drawing.Size(100, 45);
             this.btnOptions.TabIndex = 1;
             this.btnOptions.Text = "Options";
             this.btnOptions.UseVisualStyleBackColor = true;

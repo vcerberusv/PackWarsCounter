@@ -36,7 +36,9 @@ namespace PackWarsCounter_Hearthstone_
         
         private void btnBegin_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
+            MainWindow mainForm = new MainWindow();
+            mainForm.Show();
         }
 
         private void txtPacks_TextChanged(object sender, EventArgs e)
