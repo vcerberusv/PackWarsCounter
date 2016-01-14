@@ -30,7 +30,7 @@ namespace PackWarsCounter_Hearthstone_
             lblLegendVal.Text = Form1.legendMods.ToString();
         }
 
-        private void btnOptClose_Click(object sender, EventArgs e)
+        private void btnOptBegin_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -53,7 +53,7 @@ namespace PackWarsCounter_Hearthstone_
             {
                 if (Int32.TryParse(txtRareNewVal.Text, out rareNewVal))
                 {
-                    if (rareNewVal >= 0 || rareNewVal != Form1.rareMods)
+                    if (rareNewVal > 0 || rareNewVal != Form1.rareMods)
                         Form1.rareMods = rareNewVal;
                 }
             }
@@ -63,7 +63,7 @@ namespace PackWarsCounter_Hearthstone_
             {
                 if (Int32.TryParse(txtEpicNewVal.Text, out epicNewVal))
                 {
-                    if (epicNewVal >= 0 || epicNewVal != Form1.epicMods)
+                    if (epicNewVal > 0 || epicNewVal != Form1.epicMods)
                         Form1.epicMods = epicNewVal;
                 }
             }
@@ -73,7 +73,7 @@ namespace PackWarsCounter_Hearthstone_
             {
                 if (Int32.TryParse(txtLegendNewVal.Text, out legendNewVal))
                 {
-                    if (legendNewVal >= 0 || legendNewVal != Form1.legendMods)
+                    if (legendNewVal > 0 || legendNewVal != Form1.legendMods)
                         Form1.legendMods = legendNewVal;
                 }
             }
@@ -89,6 +89,8 @@ namespace PackWarsCounter_Hearthstone_
             txtRareNewVal.Clear();
             txtEpicNewVal.Clear();
             txtLegendNewVal.Clear();
+
         }
+
     }
 }

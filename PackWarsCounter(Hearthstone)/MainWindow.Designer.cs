@@ -76,9 +76,9 @@
             this.btnGEpicInc = new System.Windows.Forms.Button();
             this.btnGLegInc = new System.Windows.Forms.Button();
             this.btnCalculateTot = new System.Windows.Forms.Button();
-            this.btnOptions = new System.Windows.Forms.Button();
             this.lblCredits = new System.Windows.Forms.Label();
             this.lblDesc11 = new System.Windows.Forms.Label();
+            this.btnCLose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMainHeading
@@ -386,6 +386,7 @@
             this.txtFinalScore.ReadOnly = true;
             this.txtFinalScore.Size = new System.Drawing.Size(122, 31);
             this.txtFinalScore.TabIndex = 30;
+            this.txtFinalScore.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // btnComDec
             // 
@@ -395,6 +396,7 @@
             this.btnComDec.TabIndex = 31;
             this.btnComDec.Text = "-";
             this.btnComDec.UseVisualStyleBackColor = true;
+            this.btnComDec.Click += new System.EventHandler(this.btnComDec_Click);
             // 
             // btnRareDec
             // 
@@ -404,6 +406,7 @@
             this.btnRareDec.TabIndex = 32;
             this.btnRareDec.Text = "-";
             this.btnRareDec.UseVisualStyleBackColor = true;
+            this.btnRareDec.Click += new System.EventHandler(this.btnRareDec_Click);
             // 
             // btnEpicDec
             // 
@@ -413,6 +416,7 @@
             this.btnEpicDec.TabIndex = 33;
             this.btnEpicDec.Text = "-";
             this.btnEpicDec.UseVisualStyleBackColor = true;
+            this.btnEpicDec.Click += new System.EventHandler(this.btnEpicDec_Click);
             // 
             // btnLegDec
             // 
@@ -422,6 +426,7 @@
             this.btnLegDec.TabIndex = 34;
             this.btnLegDec.Text = "-";
             this.btnLegDec.UseVisualStyleBackColor = true;
+            this.btnLegDec.Click += new System.EventHandler(this.btnLegDec_Click);
             // 
             // btnComInc
             // 
@@ -431,6 +436,7 @@
             this.btnComInc.TabIndex = 35;
             this.btnComInc.Text = "+";
             this.btnComInc.UseVisualStyleBackColor = true;
+            this.btnComInc.Click += new System.EventHandler(this.btnComInc_Click);
             // 
             // btnRareInc
             // 
@@ -440,6 +446,7 @@
             this.btnRareInc.TabIndex = 36;
             this.btnRareInc.Text = "+";
             this.btnRareInc.UseVisualStyleBackColor = true;
+            this.btnRareInc.Click += new System.EventHandler(this.btnRareInc_Click);
             // 
             // btnEpicInc
             // 
@@ -449,6 +456,7 @@
             this.btnEpicInc.TabIndex = 37;
             this.btnEpicInc.Text = "+";
             this.btnEpicInc.UseVisualStyleBackColor = true;
+            this.btnEpicInc.Click += new System.EventHandler(this.btnEpicInc_Click);
             // 
             // btnLegInc
             // 
@@ -458,6 +466,7 @@
             this.btnLegInc.TabIndex = 38;
             this.btnLegInc.Text = "+";
             this.btnLegInc.UseVisualStyleBackColor = true;
+            this.btnLegInc.Click += new System.EventHandler(this.btnLegInc_Click);
             // 
             // btnGComDec
             // 
@@ -467,6 +476,7 @@
             this.btnGComDec.TabIndex = 39;
             this.btnGComDec.Text = "-";
             this.btnGComDec.UseVisualStyleBackColor = true;
+            this.btnGComDec.Click += new System.EventHandler(this.btnGComDec_Click);
             // 
             // btnGRareDec
             // 
@@ -476,6 +486,7 @@
             this.btnGRareDec.TabIndex = 40;
             this.btnGRareDec.Text = "-";
             this.btnGRareDec.UseVisualStyleBackColor = true;
+            this.btnGRareDec.Click += new System.EventHandler(this.btnGRareDec_Click);
             // 
             // btnGEpicDec
             // 
@@ -485,6 +496,7 @@
             this.btnGEpicDec.TabIndex = 41;
             this.btnGEpicDec.Text = "-";
             this.btnGEpicDec.UseVisualStyleBackColor = true;
+            this.btnGEpicDec.Click += new System.EventHandler(this.btnGEpicDec_Click);
             // 
             // btnGLegDec
             // 
@@ -494,6 +506,7 @@
             this.btnGLegDec.TabIndex = 42;
             this.btnGLegDec.Text = "-";
             this.btnGLegDec.UseVisualStyleBackColor = true;
+            this.btnGLegDec.Click += new System.EventHandler(this.btnGLegDec_Click);
             // 
             // btnGComInc
             // 
@@ -503,6 +516,7 @@
             this.btnGComInc.TabIndex = 43;
             this.btnGComInc.Text = "+";
             this.btnGComInc.UseVisualStyleBackColor = true;
+            this.btnGComInc.Click += new System.EventHandler(this.btnGComInc_Click);
             // 
             // btnGRareInc
             // 
@@ -512,6 +526,7 @@
             this.btnGRareInc.TabIndex = 44;
             this.btnGRareInc.Text = "+";
             this.btnGRareInc.UseVisualStyleBackColor = true;
+            this.btnGRareInc.Click += new System.EventHandler(this.btnGRareInc_Click);
             // 
             // btnGEpicInc
             // 
@@ -521,6 +536,7 @@
             this.btnGEpicInc.TabIndex = 45;
             this.btnGEpicInc.Text = "+";
             this.btnGEpicInc.UseVisualStyleBackColor = true;
+            this.btnGEpicInc.Click += new System.EventHandler(this.btnGEpicInc_Click);
             // 
             // btnGLegInc
             // 
@@ -530,6 +546,7 @@
             this.btnGLegInc.TabIndex = 46;
             this.btnGLegInc.Text = "+";
             this.btnGLegInc.UseVisualStyleBackColor = true;
+            this.btnGLegInc.Click += new System.EventHandler(this.btnGLegInc_Click);
             // 
             // btnCalculateTot
             // 
@@ -540,17 +557,7 @@
             this.btnCalculateTot.TabIndex = 47;
             this.btnCalculateTot.Text = "Calculate Score";
             this.btnCalculateTot.UseVisualStyleBackColor = true;
-            // 
-            // btnOptions
-            // 
-            this.btnOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOptions.Location = new System.Drawing.Point(654, 457);
-            this.btnOptions.Name = "btnOptions";
-            this.btnOptions.Size = new System.Drawing.Size(100, 45);
-            this.btnOptions.TabIndex = 48;
-            this.btnOptions.Text = "Options";
-            this.btnOptions.UseVisualStyleBackColor = true;
-            this.btnOptions.Click += new System.EventHandler(this.btnOptions_Click);
+            this.btnCalculateTot.Click += new System.EventHandler(this.btnCalculateTot_Click);
             // 
             // lblCredits
             // 
@@ -572,14 +579,25 @@
             this.lblDesc11.TabIndex = 50;
             this.lblDesc11.Text = "Total Score:";
             // 
+            // btnCLose
+            // 
+            this.btnCLose.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCLose.Location = new System.Drawing.Point(669, 463);
+            this.btnCLose.Name = "btnCLose";
+            this.btnCLose.Size = new System.Drawing.Size(103, 38);
+            this.btnCLose.TabIndex = 51;
+            this.btnCLose.Text = "Close";
+            this.btnCLose.UseVisualStyleBackColor = true;
+            this.btnCLose.Click += new System.EventHandler(this.btnCLose_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 562);
+            this.Controls.Add(this.btnCLose);
             this.Controls.Add(this.lblDesc11);
             this.Controls.Add(this.lblCredits);
-            this.Controls.Add(this.btnOptions);
             this.Controls.Add(this.btnCalculateTot);
             this.Controls.Add(this.btnGLegInc);
             this.Controls.Add(this.btnGEpicInc);
@@ -630,6 +648,7 @@
             this.Controls.Add(this.lblMainHeading);
             this.Name = "MainWindow";
             this.Text = "Pack Wars Counter (for Hearthstone)";
+            this.Load += new System.EventHandler(this.MainWindow_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -685,8 +704,8 @@
         private System.Windows.Forms.Button btnGEpicInc;
         private System.Windows.Forms.Button btnGLegInc;
         private System.Windows.Forms.Button btnCalculateTot;
-        private System.Windows.Forms.Button btnOptions;
         private System.Windows.Forms.Label lblCredits;
         private System.Windows.Forms.Label lblDesc11;
+        private System.Windows.Forms.Button btnCLose;
     }
 }

@@ -25,42 +25,42 @@ namespace PackWarsCounter_Hearthstone_
 
         public static int legendVal = 5;
         public static int legendMods { get { return legendVal; } set { legendVal = value; } }
-
-
-        int numPacks = 0;
+        
+        public static int numPacks = 0;
 
         public Form1()
         {
             InitializeComponent();
         }
         
-        private void btnBegin_Click(object sender, EventArgs e)
+        private void btnSetup_Click(object sender, EventArgs e)
         {
+         
+            OptionsWindow setupForm = new OptionsWindow();
+            setupForm.ShowDialog();
+                     
             this.Hide();
             MainWindow mainForm = new MainWindow();
             mainForm.Show();
+     
         }
 
         private void txtPacks_TextChanged(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtPacks.Text))
             {
-                btnBegin.Enabled = false;
+                btnSetup.Enabled = false;
             }
             if (Int32.TryParse(txtPacks.Text, out numPacks))
             {
                 if (numPacks > 0)
                 {
-                    btnBegin.Enabled = true;
+                    btnSetup.Enabled = true;
                 }
             }
         }
 
-        private void btnOptions_Click(object sender, EventArgs e)
-        {
-            OptionsWindow optionsForm = new OptionsWindow();
-            optionsForm.Show();
-        }
+     
     }
 
 }

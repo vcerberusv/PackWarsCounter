@@ -42,7 +42,7 @@
             this.lblEpicVal = new System.Windows.Forms.Label();
             this.lblLegendVal = new System.Windows.Forms.Label();
             this.btnOptSave = new System.Windows.Forms.Button();
-            this.btnOptClose = new System.Windows.Forms.Button();
+            this.btnOptBegin = new System.Windows.Forms.Button();
             this.txtComNewVal = new System.Windows.Forms.TextBox();
             this.txtRareNewVal = new System.Windows.Forms.TextBox();
             this.txtEpicNewVal = new System.Windows.Forms.TextBox();
@@ -189,23 +189,25 @@
             // 
             // btnOptSave
             // 
-            this.btnOptSave.Location = new System.Drawing.Point(190, 420);
+            this.btnOptSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOptSave.Location = new System.Drawing.Point(250, 352);
             this.btnOptSave.Name = "btnOptSave";
-            this.btnOptSave.Size = new System.Drawing.Size(70, 30);
+            this.btnOptSave.Size = new System.Drawing.Size(108, 36);
             this.btnOptSave.TabIndex = 13;
             this.btnOptSave.Text = "Save";
             this.btnOptSave.UseVisualStyleBackColor = true;
             this.btnOptSave.Click += new System.EventHandler(this.btnOptSave_Click);
             // 
-            // btnOptClose
+            // btnOptBegin
             // 
-            this.btnOptClose.Location = new System.Drawing.Point(288, 420);
-            this.btnOptClose.Name = "btnOptClose";
-            this.btnOptClose.Size = new System.Drawing.Size(70, 30);
-            this.btnOptClose.TabIndex = 14;
-            this.btnOptClose.Text = "Close";
-            this.btnOptClose.UseVisualStyleBackColor = true;
-            this.btnOptClose.Click += new System.EventHandler(this.btnOptClose_Click);
+            this.btnOptBegin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOptBegin.Location = new System.Drawing.Point(250, 407);
+            this.btnOptBegin.Name = "btnOptBegin";
+            this.btnOptBegin.Size = new System.Drawing.Size(108, 43);
+            this.btnOptBegin.TabIndex = 14;
+            this.btnOptBegin.Text = "Begin Game";
+            this.btnOptBegin.UseVisualStyleBackColor = true;
+            this.btnOptBegin.Click += new System.EventHandler(this.btnOptBegin_Click);
             // 
             // txtComNewVal
             // 
@@ -254,7 +256,7 @@
             this.Controls.Add(this.txtEpicNewVal);
             this.Controls.Add(this.txtRareNewVal);
             this.Controls.Add(this.txtComNewVal);
-            this.Controls.Add(this.btnOptClose);
+            this.Controls.Add(this.btnOptBegin);
             this.Controls.Add(this.btnOptSave);
             this.Controls.Add(this.lblLegendVal);
             this.Controls.Add(this.lblEpicVal);
@@ -293,7 +295,7 @@
         private System.Windows.Forms.Label lblEpicVal;
         private System.Windows.Forms.Label lblLegendVal;
         private System.Windows.Forms.Button btnOptSave;
-        private System.Windows.Forms.Button btnOptClose;
+        private System.Windows.Forms.Button btnOptBegin;
         private System.Windows.Forms.TextBox txtComNewVal;
         private System.Windows.Forms.TextBox txtRareNewVal;
         private System.Windows.Forms.TextBox txtEpicNewVal;

@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnBegin = new System.Windows.Forms.Button();
-            this.btnOptions = new System.Windows.Forms.Button();
+            this.btnSetup = new System.Windows.Forms.Button();
             this.lblMainHeading = new System.Windows.Forms.Label();
             this.lblSubHeading = new System.Windows.Forms.Label();
             this.lblInstructionHeading = new System.Windows.Forms.Label();
@@ -37,28 +36,17 @@
             this.lblCreditations = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // btnBegin
+            // btnSetup
             // 
-            this.btnBegin.Enabled = false;
-            this.btnBegin.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBegin.Location = new System.Drawing.Point(303, 385);
-            this.btnBegin.Name = "btnBegin";
-            this.btnBegin.Size = new System.Drawing.Size(191, 97);
-            this.btnBegin.TabIndex = 0;
-            this.btnBegin.Text = "Begin Pack Wars";
-            this.btnBegin.UseVisualStyleBackColor = true;
-            this.btnBegin.Click += new System.EventHandler(this.btnBegin_Click);
-            // 
-            // btnOptions
-            // 
-            this.btnOptions.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOptions.Location = new System.Drawing.Point(668, 439);
-            this.btnOptions.Name = "btnOptions";
-            this.btnOptions.Size = new System.Drawing.Size(100, 45);
-            this.btnOptions.TabIndex = 1;
-            this.btnOptions.Text = "Options";
-            this.btnOptions.UseVisualStyleBackColor = true;
-            this.btnOptions.Click += new System.EventHandler(this.btnOptions_Click);
+            this.btnSetup.Enabled = false;
+            this.btnSetup.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSetup.Location = new System.Drawing.Point(303, 385);
+            this.btnSetup.Name = "btnSetup";
+            this.btnSetup.Size = new System.Drawing.Size(191, 97);
+            this.btnSetup.TabIndex = 0;
+            this.btnSetup.Text = "Setup and Begin";
+            this.btnSetup.UseVisualStyleBackColor = true;
+            this.btnSetup.Click += new System.EventHandler(this.btnSetup_Click);
             // 
             // lblMainHeading
             // 
@@ -121,8 +109,7 @@
             this.Controls.Add(this.lblInstructionHeading);
             this.Controls.Add(this.lblSubHeading);
             this.Controls.Add(this.lblMainHeading);
-            this.Controls.Add(this.btnOptions);
-            this.Controls.Add(this.btnBegin);
+            this.Controls.Add(this.btnSetup);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Pack Wars Counter (for Hearthstone)";
@@ -133,8 +120,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnBegin;
-        private System.Windows.Forms.Button btnOptions;
+        private System.Windows.Forms.Button btnSetup;
         private System.Windows.Forms.Label lblMainHeading;
         private System.Windows.Forms.Label lblSubHeading;
         private System.Windows.Forms.Label lblInstructionHeading;
