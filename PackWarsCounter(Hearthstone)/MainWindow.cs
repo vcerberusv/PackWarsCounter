@@ -12,15 +12,17 @@ namespace PackWarsCounter_Hearthstone_
 {
     public partial class MainWindow : Form
     {
-        int totalCards, cardsLeft;
-        int comms, rares, epics, legends, gComms, gRares, gEpics, gLegends = 0;
-        int total = 0;
+        
+        int totalCards, cardsLeft;                                                          //number of cards, number of cards left to use
+        int comms, rares, epics, legends, gComms, gRares, gEpics, gLegends = 0;             //number of different crads collected
+        int total = 0;                                                                      //starting total
 
         public MainWindow()
         {
             InitializeComponent();
         }
 
+        //sets up the different labels with the correct values that were specified by the user
         private void MainWindow_Load(object sender, EventArgs e)
         {
             lblNumPacks.Text = Form1.numPacks.ToString();
@@ -46,6 +48,7 @@ namespace PackWarsCounter_Hearthstone_
         }
         
         //normal card incrementation
+        //commons
         private void btnComInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -58,7 +61,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //rares
         private void btnRareInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -71,7 +74,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //epics
         private void btnEpicInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -84,7 +87,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //legendaries
         private void btnLegInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -99,6 +102,7 @@ namespace PackWarsCounter_Hearthstone_
         }
         
         //normal card decrementation
+        //commons
         private void btnComDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && comms > 0)
@@ -111,7 +115,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //rares
         private void btnRareDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && rares > 0)
@@ -124,7 +128,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //epics
         private void btnEpicDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && epics > 0)
@@ -137,7 +141,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //legendaries
         private void btnLegDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && legends > 0)
@@ -152,6 +156,7 @@ namespace PackWarsCounter_Hearthstone_
         }
        
         //gold card incrementation
+        //commons
         private void btnGComInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -164,7 +169,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //rares
         private void btnGRareInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -177,7 +182,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //epics
         private void btnGEpicInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -190,7 +195,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //legendaries
         private void btnGLegInc_Click(object sender, EventArgs e)
         {
             if (cardsLeft > 0 && cardsLeft <= totalCards)
@@ -205,6 +210,7 @@ namespace PackWarsCounter_Hearthstone_
         }
         
         //gold card decrementation
+        //commons
         private void btnGComDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && gComms > 0)
@@ -217,7 +223,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //rares
         private void btnGRareDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && gRares > 0)
@@ -230,7 +236,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //epics
         private void btnGEpicDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && gEpics > 0)
@@ -243,7 +249,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //legendaries
         private void btnGLegDec_Click(object sender, EventArgs e)
         {
             if (cardsLeft >= 0 && cardsLeft < totalCards && gLegends > 0)
@@ -256,7 +262,7 @@ namespace PackWarsCounter_Hearthstone_
 
             lblCardsLeft.Text = cardsLeft.ToString();
         }
-
+        //button event to calculate the total 
         private void btnCalculateTot_Click(object sender, EventArgs e)
         {
             //because the gold commons are finniky add the gold commons in first
@@ -271,7 +277,7 @@ namespace PackWarsCounter_Hearthstone_
             txtFinalScore.Text = total.ToString();
 
         }
-        
+        //closes the entire program
         private void btnCLose_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();

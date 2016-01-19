@@ -208,7 +208,7 @@
             // 
             this.lblDesc9.AutoSize = true;
             this.lblDesc9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDesc9.Location = new System.Drawing.Point(106, 284);
+            this.lblDesc9.Location = new System.Drawing.Point(106, 285);
             this.lblDesc9.Name = "lblDesc9";
             this.lblDesc9.Size = new System.Drawing.Size(40, 20);
             this.lblDesc9.TabIndex = 12;
@@ -229,151 +229,167 @@
             // lblComScoreMult
             // 
             this.lblComScoreMult.AutoSize = true;
+            this.lblComScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblComScoreMult.Location = new System.Drawing.Point(418, 172);
             this.lblComScoreMult.Name = "lblComScoreMult";
-            this.lblComScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblComScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblComScoreMult.TabIndex = 14;
             this.lblComScoreMult.Text = "?";
             // 
             // lblRareScoreMult
             // 
             this.lblRareScoreMult.AutoSize = true;
+            this.lblRareScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRareScoreMult.Location = new System.Drawing.Point(418, 231);
             this.lblRareScoreMult.Name = "lblRareScoreMult";
-            this.lblRareScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblRareScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblRareScoreMult.TabIndex = 15;
             this.lblRareScoreMult.Text = "?";
             // 
             // lblEpicScoreMult
             // 
             this.lblEpicScoreMult.AutoSize = true;
+            this.lblEpicScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEpicScoreMult.Location = new System.Drawing.Point(418, 289);
             this.lblEpicScoreMult.Name = "lblEpicScoreMult";
-            this.lblEpicScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblEpicScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblEpicScoreMult.TabIndex = 16;
             this.lblEpicScoreMult.Text = "?";
             // 
             // lblLegScoreMult
             // 
             this.lblLegScoreMult.AutoSize = true;
-            this.lblLegScoreMult.Location = new System.Drawing.Point(418, 357);
+            this.lblLegScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLegScoreMult.Location = new System.Drawing.Point(418, 352);
             this.lblLegScoreMult.Name = "lblLegScoreMult";
-            this.lblLegScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblLegScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblLegScoreMult.TabIndex = 17;
             this.lblLegScoreMult.Text = "?";
             // 
             // lblGComScoreMult
             // 
             this.lblGComScoreMult.AutoSize = true;
-            this.lblGComScoreMult.Location = new System.Drawing.Point(728, 177);
+            this.lblGComScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGComScoreMult.Location = new System.Drawing.Point(708, 170);
             this.lblGComScoreMult.Name = "lblGComScoreMult";
-            this.lblGComScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblGComScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblGComScoreMult.TabIndex = 18;
             this.lblGComScoreMult.Text = "?";
             // 
             // lblGRareScoreMult
             // 
             this.lblGRareScoreMult.AutoSize = true;
-            this.lblGRareScoreMult.Location = new System.Drawing.Point(728, 238);
+            this.lblGRareScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGRareScoreMult.Location = new System.Drawing.Point(708, 231);
             this.lblGRareScoreMult.Name = "lblGRareScoreMult";
-            this.lblGRareScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblGRareScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblGRareScoreMult.TabIndex = 19;
             this.lblGRareScoreMult.Text = "?";
             // 
             // lblGEpicScoreMult
             // 
             this.lblGEpicScoreMult.AutoSize = true;
-            this.lblGEpicScoreMult.Location = new System.Drawing.Point(728, 295);
+            this.lblGEpicScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGEpicScoreMult.Location = new System.Drawing.Point(708, 288);
             this.lblGEpicScoreMult.Name = "lblGEpicScoreMult";
-            this.lblGEpicScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblGEpicScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblGEpicScoreMult.TabIndex = 20;
             this.lblGEpicScoreMult.Text = "?";
             // 
             // lblGLegScoreMult
             // 
             this.lblGLegScoreMult.AutoSize = true;
-            this.lblGLegScoreMult.Location = new System.Drawing.Point(728, 362);
+            this.lblGLegScoreMult.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGLegScoreMult.Location = new System.Drawing.Point(708, 356);
             this.lblGLegScoreMult.Name = "lblGLegScoreMult";
-            this.lblGLegScoreMult.Size = new System.Drawing.Size(13, 13);
+            this.lblGLegScoreMult.Size = new System.Drawing.Size(17, 18);
             this.lblGLegScoreMult.TabIndex = 21;
             this.lblGLegScoreMult.Text = "?";
             // 
             // txtComCount
             // 
-            this.txtComCount.Location = new System.Drawing.Point(280, 174);
+            this.txtComCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComCount.Location = new System.Drawing.Point(272, 174);
             this.txtComCount.Name = "txtComCount";
             this.txtComCount.ReadOnly = true;
-            this.txtComCount.Size = new System.Drawing.Size(31, 20);
+            this.txtComCount.Size = new System.Drawing.Size(47, 24);
             this.txtComCount.TabIndex = 22;
             this.txtComCount.Text = "0";
             this.txtComCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtRareCount
             // 
-            this.txtRareCount.Location = new System.Drawing.Point(280, 234);
+            this.txtRareCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRareCount.Location = new System.Drawing.Point(272, 230);
             this.txtRareCount.Name = "txtRareCount";
             this.txtRareCount.ReadOnly = true;
-            this.txtRareCount.Size = new System.Drawing.Size(31, 20);
+            this.txtRareCount.Size = new System.Drawing.Size(47, 24);
             this.txtRareCount.TabIndex = 23;
             this.txtRareCount.Text = "0";
             this.txtRareCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtEpicCount
             // 
-            this.txtEpicCount.Location = new System.Drawing.Point(280, 290);
+            this.txtEpicCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEpicCount.Location = new System.Drawing.Point(272, 290);
             this.txtEpicCount.Name = "txtEpicCount";
             this.txtEpicCount.ReadOnly = true;
-            this.txtEpicCount.Size = new System.Drawing.Size(31, 20);
+            this.txtEpicCount.Size = new System.Drawing.Size(47, 24);
             this.txtEpicCount.TabIndex = 24;
             this.txtEpicCount.Text = "0";
             this.txtEpicCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtLegCount
             // 
-            this.txtLegCount.Location = new System.Drawing.Point(280, 359);
+            this.txtLegCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLegCount.Location = new System.Drawing.Point(272, 350);
             this.txtLegCount.Name = "txtLegCount";
             this.txtLegCount.ReadOnly = true;
-            this.txtLegCount.Size = new System.Drawing.Size(31, 20);
+            this.txtLegCount.Size = new System.Drawing.Size(47, 24);
             this.txtLegCount.TabIndex = 25;
             this.txtLegCount.Text = "0";
             this.txtLegCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtGComCount
             // 
-            this.txtGComCount.Location = new System.Drawing.Point(564, 174);
+            this.txtGComCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGComCount.Location = new System.Drawing.Point(555, 174);
             this.txtGComCount.Name = "txtGComCount";
             this.txtGComCount.ReadOnly = true;
-            this.txtGComCount.Size = new System.Drawing.Size(31, 20);
+            this.txtGComCount.Size = new System.Drawing.Size(47, 24);
             this.txtGComCount.TabIndex = 26;
             this.txtGComCount.Text = "0";
             this.txtGComCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtGRareCount
             // 
-            this.txtGRareCount.Location = new System.Drawing.Point(564, 234);
+            this.txtGRareCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGRareCount.Location = new System.Drawing.Point(555, 234);
             this.txtGRareCount.Name = "txtGRareCount";
             this.txtGRareCount.ReadOnly = true;
-            this.txtGRareCount.Size = new System.Drawing.Size(31, 20);
+            this.txtGRareCount.Size = new System.Drawing.Size(47, 24);
             this.txtGRareCount.TabIndex = 27;
             this.txtGRareCount.Text = "0";
             this.txtGRareCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtGEpicCount
             // 
-            this.txtGEpicCount.Location = new System.Drawing.Point(564, 291);
+            this.txtGEpicCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGEpicCount.Location = new System.Drawing.Point(555, 292);
             this.txtGEpicCount.Name = "txtGEpicCount";
             this.txtGEpicCount.ReadOnly = true;
-            this.txtGEpicCount.Size = new System.Drawing.Size(31, 20);
+            this.txtGEpicCount.Size = new System.Drawing.Size(47, 24);
             this.txtGEpicCount.TabIndex = 28;
             this.txtGEpicCount.Text = "0";
             this.txtGEpicCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtGLegCount
             // 
-            this.txtGLegCount.Location = new System.Drawing.Point(564, 359);
+            this.txtGLegCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLegCount.Location = new System.Drawing.Point(555, 350);
             this.txtGLegCount.Name = "txtGLegCount";
             this.txtGLegCount.ReadOnly = true;
-            this.txtGLegCount.Size = new System.Drawing.Size(31, 20);
+            this.txtGLegCount.Size = new System.Drawing.Size(47, 24);
             this.txtGLegCount.TabIndex = 29;
             this.txtGLegCount.Text = "0";
             this.txtGLegCount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -390,161 +406,193 @@
             // 
             // btnComDec
             // 
-            this.btnComDec.Location = new System.Drawing.Point(248, 172);
+            this.btnComDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComDec.Location = new System.Drawing.Point(208, 174);
             this.btnComDec.Name = "btnComDec";
-            this.btnComDec.Size = new System.Drawing.Size(26, 23);
+            this.btnComDec.Size = new System.Drawing.Size(40, 24);
             this.btnComDec.TabIndex = 31;
             this.btnComDec.Text = "-";
+            this.btnComDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnComDec.UseVisualStyleBackColor = true;
             this.btnComDec.Click += new System.EventHandler(this.btnComDec_Click);
             // 
             // btnRareDec
             // 
-            this.btnRareDec.Location = new System.Drawing.Point(248, 232);
+            this.btnRareDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRareDec.Location = new System.Drawing.Point(208, 229);
             this.btnRareDec.Name = "btnRareDec";
-            this.btnRareDec.Size = new System.Drawing.Size(26, 23);
+            this.btnRareDec.Size = new System.Drawing.Size(40, 24);
             this.btnRareDec.TabIndex = 32;
             this.btnRareDec.Text = "-";
+            this.btnRareDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnRareDec.UseVisualStyleBackColor = true;
             this.btnRareDec.Click += new System.EventHandler(this.btnRareDec_Click);
             // 
             // btnEpicDec
             // 
-            this.btnEpicDec.Location = new System.Drawing.Point(248, 288);
+            this.btnEpicDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEpicDec.Location = new System.Drawing.Point(208, 285);
             this.btnEpicDec.Name = "btnEpicDec";
-            this.btnEpicDec.Size = new System.Drawing.Size(26, 23);
+            this.btnEpicDec.Size = new System.Drawing.Size(40, 24);
             this.btnEpicDec.TabIndex = 33;
             this.btnEpicDec.Text = "-";
+            this.btnEpicDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnEpicDec.UseVisualStyleBackColor = true;
             this.btnEpicDec.Click += new System.EventHandler(this.btnEpicDec_Click);
             // 
             // btnLegDec
             // 
-            this.btnLegDec.Location = new System.Drawing.Point(248, 357);
+            this.btnLegDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLegDec.Location = new System.Drawing.Point(208, 346);
             this.btnLegDec.Name = "btnLegDec";
-            this.btnLegDec.Size = new System.Drawing.Size(26, 23);
+            this.btnLegDec.Size = new System.Drawing.Size(40, 24);
             this.btnLegDec.TabIndex = 34;
             this.btnLegDec.Text = "-";
+            this.btnLegDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnLegDec.UseVisualStyleBackColor = true;
             this.btnLegDec.Click += new System.EventHandler(this.btnLegDec_Click);
             // 
             // btnComInc
             // 
-            this.btnComInc.Location = new System.Drawing.Point(317, 172);
+            this.btnComInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnComInc.Location = new System.Drawing.Point(352, 175);
             this.btnComInc.Name = "btnComInc";
-            this.btnComInc.Size = new System.Drawing.Size(26, 23);
+            this.btnComInc.Size = new System.Drawing.Size(40, 24);
             this.btnComInc.TabIndex = 35;
             this.btnComInc.Text = "+";
+            this.btnComInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnComInc.UseVisualStyleBackColor = true;
             this.btnComInc.Click += new System.EventHandler(this.btnComInc_Click);
             // 
             // btnRareInc
             // 
-            this.btnRareInc.Location = new System.Drawing.Point(317, 234);
+            this.btnRareInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRareInc.Location = new System.Drawing.Point(352, 231);
             this.btnRareInc.Name = "btnRareInc";
-            this.btnRareInc.Size = new System.Drawing.Size(26, 23);
+            this.btnRareInc.Size = new System.Drawing.Size(40, 24);
             this.btnRareInc.TabIndex = 36;
             this.btnRareInc.Text = "+";
+            this.btnRareInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnRareInc.UseVisualStyleBackColor = true;
             this.btnRareInc.Click += new System.EventHandler(this.btnRareInc_Click);
             // 
             // btnEpicInc
             // 
-            this.btnEpicInc.Location = new System.Drawing.Point(317, 288);
+            this.btnEpicInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEpicInc.Location = new System.Drawing.Point(352, 287);
             this.btnEpicInc.Name = "btnEpicInc";
-            this.btnEpicInc.Size = new System.Drawing.Size(26, 23);
+            this.btnEpicInc.Size = new System.Drawing.Size(40, 24);
             this.btnEpicInc.TabIndex = 37;
             this.btnEpicInc.Text = "+";
+            this.btnEpicInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnEpicInc.UseVisualStyleBackColor = true;
             this.btnEpicInc.Click += new System.EventHandler(this.btnEpicInc_Click);
             // 
             // btnLegInc
             // 
-            this.btnLegInc.Location = new System.Drawing.Point(317, 357);
+            this.btnLegInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLegInc.Location = new System.Drawing.Point(352, 346);
             this.btnLegInc.Name = "btnLegInc";
-            this.btnLegInc.Size = new System.Drawing.Size(26, 23);
+            this.btnLegInc.Size = new System.Drawing.Size(40, 24);
             this.btnLegInc.TabIndex = 38;
             this.btnLegInc.Text = "+";
+            this.btnLegInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnLegInc.UseVisualStyleBackColor = true;
             this.btnLegInc.Click += new System.EventHandler(this.btnLegInc_Click);
             // 
             // btnGComDec
             // 
-            this.btnGComDec.Location = new System.Drawing.Point(532, 172);
+            this.btnGComDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGComDec.Location = new System.Drawing.Point(486, 172);
             this.btnGComDec.Name = "btnGComDec";
-            this.btnGComDec.Size = new System.Drawing.Size(26, 23);
+            this.btnGComDec.Size = new System.Drawing.Size(40, 24);
             this.btnGComDec.TabIndex = 39;
             this.btnGComDec.Text = "-";
+            this.btnGComDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGComDec.UseVisualStyleBackColor = true;
             this.btnGComDec.Click += new System.EventHandler(this.btnGComDec_Click);
             // 
             // btnGRareDec
             // 
-            this.btnGRareDec.Location = new System.Drawing.Point(532, 232);
+            this.btnGRareDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGRareDec.Location = new System.Drawing.Point(486, 233);
             this.btnGRareDec.Name = "btnGRareDec";
-            this.btnGRareDec.Size = new System.Drawing.Size(26, 23);
+            this.btnGRareDec.Size = new System.Drawing.Size(40, 24);
             this.btnGRareDec.TabIndex = 40;
             this.btnGRareDec.Text = "-";
+            this.btnGRareDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGRareDec.UseVisualStyleBackColor = true;
             this.btnGRareDec.Click += new System.EventHandler(this.btnGRareDec_Click);
             // 
             // btnGEpicDec
             // 
-            this.btnGEpicDec.Location = new System.Drawing.Point(532, 289);
+            this.btnGEpicDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGEpicDec.Location = new System.Drawing.Point(486, 292);
             this.btnGEpicDec.Name = "btnGEpicDec";
-            this.btnGEpicDec.Size = new System.Drawing.Size(26, 23);
+            this.btnGEpicDec.Size = new System.Drawing.Size(40, 24);
             this.btnGEpicDec.TabIndex = 41;
             this.btnGEpicDec.Text = "-";
+            this.btnGEpicDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGEpicDec.UseVisualStyleBackColor = true;
             this.btnGEpicDec.Click += new System.EventHandler(this.btnGEpicDec_Click);
             // 
             // btnGLegDec
             // 
-            this.btnGLegDec.Location = new System.Drawing.Point(532, 358);
+            this.btnGLegDec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLegDec.Location = new System.Drawing.Point(486, 351);
             this.btnGLegDec.Name = "btnGLegDec";
-            this.btnGLegDec.Size = new System.Drawing.Size(26, 23);
+            this.btnGLegDec.Size = new System.Drawing.Size(40, 24);
             this.btnGLegDec.TabIndex = 42;
             this.btnGLegDec.Text = "-";
+            this.btnGLegDec.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGLegDec.UseVisualStyleBackColor = true;
             this.btnGLegDec.Click += new System.EventHandler(this.btnGLegDec_Click);
             // 
             // btnGComInc
             // 
-            this.btnGComInc.Location = new System.Drawing.Point(601, 172);
+            this.btnGComInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGComInc.Location = new System.Drawing.Point(632, 170);
             this.btnGComInc.Name = "btnGComInc";
-            this.btnGComInc.Size = new System.Drawing.Size(26, 23);
+            this.btnGComInc.Size = new System.Drawing.Size(40, 24);
             this.btnGComInc.TabIndex = 43;
             this.btnGComInc.Text = "+";
+            this.btnGComInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGComInc.UseVisualStyleBackColor = true;
             this.btnGComInc.Click += new System.EventHandler(this.btnGComInc_Click);
             // 
             // btnGRareInc
             // 
-            this.btnGRareInc.Location = new System.Drawing.Point(601, 232);
+            this.btnGRareInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGRareInc.Location = new System.Drawing.Point(632, 235);
             this.btnGRareInc.Name = "btnGRareInc";
-            this.btnGRareInc.Size = new System.Drawing.Size(26, 23);
+            this.btnGRareInc.Size = new System.Drawing.Size(40, 24);
             this.btnGRareInc.TabIndex = 44;
             this.btnGRareInc.Text = "+";
+            this.btnGRareInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGRareInc.UseVisualStyleBackColor = true;
             this.btnGRareInc.Click += new System.EventHandler(this.btnGRareInc_Click);
             // 
             // btnGEpicInc
             // 
-            this.btnGEpicInc.Location = new System.Drawing.Point(601, 289);
+            this.btnGEpicInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGEpicInc.Location = new System.Drawing.Point(632, 290);
             this.btnGEpicInc.Name = "btnGEpicInc";
-            this.btnGEpicInc.Size = new System.Drawing.Size(26, 23);
+            this.btnGEpicInc.Size = new System.Drawing.Size(40, 24);
             this.btnGEpicInc.TabIndex = 45;
             this.btnGEpicInc.Text = "+";
+            this.btnGEpicInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGEpicInc.UseVisualStyleBackColor = true;
             this.btnGEpicInc.Click += new System.EventHandler(this.btnGEpicInc_Click);
             // 
             // btnGLegInc
             // 
-            this.btnGLegInc.Location = new System.Drawing.Point(601, 358);
+            this.btnGLegInc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLegInc.Location = new System.Drawing.Point(632, 349);
             this.btnGLegInc.Name = "btnGLegInc";
-            this.btnGLegInc.Size = new System.Drawing.Size(26, 23);
+            this.btnGLegInc.Size = new System.Drawing.Size(40, 24);
             this.btnGLegInc.TabIndex = 46;
             this.btnGLegInc.Text = "+";
+            this.btnGLegInc.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnGLegInc.UseVisualStyleBackColor = true;
             this.btnGLegInc.Click += new System.EventHandler(this.btnGLegInc_Click);
             // 
@@ -563,7 +611,7 @@
             // 
             this.lblCredits.AutoSize = true;
             this.lblCredits.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCredits.Location = new System.Drawing.Point(450, 522);
+            this.lblCredits.Location = new System.Drawing.Point(450, 521);
             this.lblCredits.Name = "lblCredits";
             this.lblCredits.Size = new System.Drawing.Size(322, 20);
             this.lblCredits.TabIndex = 49;
@@ -646,6 +694,7 @@
             this.Controls.Add(this.lblNumPacks);
             this.Controls.Add(this.lblDesc1);
             this.Controls.Add(this.lblMainHeading);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "MainWindow";
             this.Text = "Pack Wars Counter (for Hearthstone)";
             this.Load += new System.EventHandler(this.MainWindow_Load);

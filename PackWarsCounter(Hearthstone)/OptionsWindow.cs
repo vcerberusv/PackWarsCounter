@@ -12,6 +12,7 @@ namespace PackWarsCounter_Hearthstone_
 {
     public partial class OptionsWindow : Form
     {
+        //temporary vlaues to use the setters in the first form
         int commNewVal = 0;
         int rareNewVal = 0;
         int epicNewVal = 0;
@@ -22,6 +23,7 @@ namespace PackWarsCounter_Hearthstone_
             InitializeComponent();
         }
 
+        //this gets the current values of the differrent types of cards
         private void OptionsWindow_Load(object sender, EventArgs e)
         {
             lblComVal.Text = Form1.commonMods.ToString();
@@ -30,6 +32,7 @@ namespace PackWarsCounter_Hearthstone_
             lblLegendVal.Text = Form1.legendMods.ToString();
         }
 
+        //closes the form to allow players to start the calculator
         private void btnOptBegin_Click(object sender, EventArgs e)
         {
             this.Close();
