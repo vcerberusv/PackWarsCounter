@@ -271,6 +271,9 @@
             this.Controls.Add(this.lblCardType1);
             this.Controls.Add(this.lblSubHeading1);
             this.Controls.Add(this.lblMainHeading);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(400, 500);
+            this.MinimumSize = new System.Drawing.Size(400, 500);
             this.Name = "OptionsWindow";
             this.Text = "Options";
             this.Load += new System.EventHandler(this.OptionsWindow_Load);

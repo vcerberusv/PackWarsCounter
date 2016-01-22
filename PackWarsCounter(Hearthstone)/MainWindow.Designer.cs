@@ -695,6 +695,9 @@
             this.Controls.Add(this.lblDesc1);
             this.Controls.Add(this.lblMainHeading);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(800, 600);
+            this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "MainWindow";
             this.Text = "Pack Wars Counter (for Hearthstone)";
             this.Load += new System.EventHandler(this.MainWindow_Load);

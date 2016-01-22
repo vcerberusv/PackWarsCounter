@@ -103,6 +103,7 @@
             // 
             // Form1
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(784, 562);
             this.Controls.Add(this.lblCreditations);
             this.Controls.Add(this.txtPacks);
@@ -111,6 +112,9 @@
             this.Controls.Add(this.lblMainHeading);
             this.Controls.Add(this.btnSetup);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(800, 600);
+            this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "Form1";
             this.Text = "Pack Wars Counter (for Hearthstone)";
             this.ResumeLayout(false);
